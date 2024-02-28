@@ -10,11 +10,17 @@ body{
 }
 
 header{ 
-      background-color: #3b7df7; width: 100%; height: 200px; 
+      background-color: #3b7df7; 
+      width: 100%; 
+      height: 200px; 
+      padding: 5px;
 }
 
 footer{ 
-      background-color: #3b7df7; width: 100%; height: 200px 
+      background-color: #3b7df7; 
+      width: 100%; 
+      height: 200px;
+      padding: 5px;
 }
 
 
