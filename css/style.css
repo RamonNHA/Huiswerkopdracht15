@@ -1,0 +1,100 @@
+body{
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: darkblue;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+header{ 
+      background-color: #3b7df7; width: 100%; height: 200px; 
+}
+
+footer{ 
+      background-color: #3b7df7; width: 100%; height: 200px 
+}
+
+
+ul a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    display: inline-block;
+    height: 22px;
+    width: 200px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    border-left: 2px solid lightblue;
+    border-right: 1px solid lightblue;
+    background-color: darkblue;
+}
+
+li:hover{
+    background-color: lightblue;
+    border-style: none;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    width: 25%;
+}
+
+#a1{
+    background-color: aqua;
+}
+
+#a2{
+    background-color: aquamarine;
+}
+
+#b1{
+    background-color: aqua;
+}
+
+#b2{
+    background-color: aquamarine;
+}
+
+#c1{
+    background-color: aqua;
+}
+
+#c2{
+    background-color: aquamarine;
+}
+
+input[type="text"], input[type="mail"], textarea, select, button{
+    display: block;
+    margin: 15px 0px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: inset 2px 2px 5px darkblue;
+
+}
+
+textarea{
+    height: 200px;
+    background-color: lightgoldenrodyellow;
+    padding: 5px 4px;
+}
+
+Button:active{
+    background-color: lightgreen;
+    color: blue;
+    border-radius: 8px;
+    box-shadow: inset 2px 2px 5px green;
+}
+
+form{
+    display: inline-block;
+}
